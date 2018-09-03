@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html >
+<head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>学习篇</title>
+  	<link rel="stylesheet" href="css/bootstrap/bootstrap.css" />
+	<link rel="stylesheet" href="css/main/main.css" />
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/life.js"></script>
+	<script>
+		function load(){
+			$(".list-group-item").each(function() {
+				$(this).click(function() {
+					alert('客官稍安勿躁，小Q正在努力打通生活栏目备忘详情通道，敬请期待~');
+				})
+			});
+		}			
+	</script>
+</head>
+
+<body style="margin-right: 0;" onload="load()">
+	<div class="panel panel-default" style="border: none;font-family: 华文行楷;font-size: 18px;">
+		<div class="panel-heading" style="text-align: center;">
+			<span style="width: 10px;float: left;" onclick="window.location.href='home.html'"> < </span>
+			<span style="margin-left: 10px;"><b style="color: midnightblue;">学习篇</b></span>
+			<span style="float: right;margin-right: 10px;font-size: 14px;color: darkgreen;line-height: 2;" onclick="alert('客官稍安勿躁，小Q正在努力打通学习备忘录通道，敬请期待~');">
+				备忘录<font style="color: darkcyan;">></font><font style="color: yellowgreen;">></font>
+			</span>
+		</div>
+	</div>
+	<div class="row" style="margin-top: -20px;margin-right: 0;overflow-x: hidden;">
+		<ul class="list-group">
+			<li class="list-group-item" >
+				<div class="row">
+					<div class="col-xs-3">
+						<img src="image/know1.jpg" style="width: 90px;height:100px;vertical-align: middle;border-radius: 15px;padding: 5px 5px 5px 10px;"/>
+					</div>
+					<div class="col-xs-9" style="padding-left: 25px;">
+						<b style="color: #13a59fe0;font-size: 16px;font-family: 华文仿宋;" >
+							&nbsp;项目集成
+						</b>
+
+						<font style="font-family: 华文仿宋;">
+							<span class="span-overflow span-overflow-1">
+								【标题】<b>项目立项管理</b>
+							</span>						
+							<span class="span-overflow span-overflow-3">
+								【内容】项目建议、项目可行性分析、项目审批、项目招投标、项目合同谈判与签订、供应商项目立项......								
+							</span>
+						</font>
+					</div>
+				</div>				
+			</li>
+			
+			<li class="list-group-item" >
+				<div class="row">
+					<div class="col-xs-3">
+						<img src="image/know2.jpg" style="width: 90px;height:100px;vertical-align: middle;border-radius: 15px;padding: 5px 5px 5px 10px;"/>
+					</div>
+					<div class="col-xs-9" style="padding-left: 25px;">
+						<b style="color: #13a59fe0;font-size: 16px;font-family: 华文仿宋;" >
+							&nbsp;歼击机-20
+						</b>
+						
+						<font style="font-family: 华文仿宋;">
+							<span class="span-overflow span-overflow-1">
+								【标题】<b>歼击机-20</b>								
+							</span>
+							<span class="span-overflow span-overflow-3">
+								【内容】单座双发动机并具备高隐身性、高态势感知、高机动性等能力的第五代战斗机......								
+							</span>
+						</font>
+					</div>
+				</div>				
+			</li>						
+		</ul>
+	</div>
+
+</body>
+</html>

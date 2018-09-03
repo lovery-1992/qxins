@@ -1,0 +1,13 @@
+/*超过3行显示省略号*/
+.span-overflow{
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;	
+}
+.span-overflow-1{
+	-webkit-line-clamp:1; 
+}
+.span-overflow-3{
+	-webkit-line-clamp:3; 
+}
